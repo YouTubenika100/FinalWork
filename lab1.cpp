@@ -2,8 +2,9 @@
 using namespace std;
 
 int main() {
-    int a, b, sum;
-
+    int a1; // Первое число
+	int b; // Второе число
+	int sum; // Сумма
     a = 10;
     b = 5;
 
