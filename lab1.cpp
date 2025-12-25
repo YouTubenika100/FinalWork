@@ -2,22 +2,22 @@
 using namespace std;
 
 int main() {
-    int a1; // Первое число
-	int b; // Второе число
-	int sum; // Сумма
+    int numberOne; // Первое число
+	int numberTwo; // Второе число
+	int result; // Сумма
 	
 	
-    a1 = 10;
+    numberOne = 10;
 	// Проверка на положительность
-	if (a1 > 0) {
-		cout << "Переменная a1 положительна" << endl;
+	if (numberOne > 0) {
+		cout << "Переменная numberOne положительна" << endl;
 	}
 	
-    b = 5;
+    numberTwo = 5;
 
-    sum = a1 + b;
+    result = numberOne + numberTwo;
 
-    cout << "Sum = " << sum << endl;
+    cout << "Sum = " << result << endl;
 
     return 0;
 }
